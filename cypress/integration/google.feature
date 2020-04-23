@@ -1,9 +1,10 @@
+#language: en
+
 Feature: visit site
 
-   Feature Description
+   - Feature Description
 
+   @regression
    Scenario: should open to google
-   Given I visit the site google
-   When I click the search bar and type in cypress
-   And I click the search button
-   Then I should see results
+      Given I visit the site google
+      
